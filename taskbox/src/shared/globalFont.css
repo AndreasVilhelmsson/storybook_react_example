@@ -1,0 +1,23 @@
+/*
+Downloaded fonts from package webfonts Download Helvetica Neue Webfont @font-face kit
+https://www.cufonfonts.com/font/helvetica-neue-55
+*/
+@font-face {
+  font-family: HelveticaNeueFaser;
+  src: url(../fonts/HelveticaNeue-Medium-Faser.woff);
+}
+@font-face {
+  font-family: HelveticaNeueBold;
+  src: url(../fonts/HelveticaNeueBold.woff);
+}
+@font-face {
+    font-family: HelveticaNeueItalic;
+    src: url(../fonts/HelveticaNeueItalic.woff);
+  }
+:root {
+  --text-font: HelveticaNeueFaser, Helvetica, Arial, sans-serif;
+  --text-font-bold: HelveticaNeueBold, Helvetica, Arial, sans-serif;
+  --text-font-italic: HelveticaNeueItalic, Helvetica, Arial, sans-serif;
+  --big-header-font: HelveticaNeue, Helvetica, Arial, sans-serif;
+  --small-header-font: HelveticaNeue, Helvetica, Arial, sans-serif;
+}

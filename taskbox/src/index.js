@@ -1,12 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { PrimaryButton } from '../src/components/buttons/PrimaryButton';
+import { SecondaryButton } from '../src/components/buttons/SecondaryButton';
+import { DeleteButton } from '../src/components/buttons/DeleteButton';
+import { SmallPrimaryButton } from '../src/components/smallButtons/SmallPrimaryButton';
+import { SmallSecondaryButton } from '../src/components/smallButtons/SmallSecondaryButton';
+import { SmallDeleteButton } from '../src/components/smallButtons/SmallDeleteButton';
+import { RadioButton } from '../src/components/radiobuttons/RadioButton';
+import { Dropdown } from './components/dropdown/Dropdown';
+import { ToggleButton } from './components/toggleButtons/ToggleButton';
+import { TextArea } from './components/textArea/TextArea';
+import { AutoComplete } from './components/searchfield/autocomplete';
+import { SVGIcon } from './components/globals/SVGIcon';
+import { InputField } from './components/inputfield/InputField';
+import { TextLabel } from './components/globals/TextLabel';
+import { Datepicker } from './components/datepicker/Datepicker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+export {
+  PrimaryButton,
+  SecondaryButton,
+  DeleteButton,
+  SmallPrimaryButton,
+  SmallSecondaryButton,
+  SmallDeleteButton,
+  RadioButton,
+  Dropdown,
+  ToggleButton,
+  TextArea,
+  AutoComplete,
+  SVGIcon,
+  InputField,
+  TextLabel,
+  Datepicker,
+};
